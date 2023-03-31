@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 10%;
+}
+header{
+    text-align: center;
+    align-items: center;
+    font-family: Arial;
+}
+.foto{justify-content: center;
+}
+.edu {background-color: lightblue;}
+.exp {background-color: lightblue;}
+.lan {background-color: lightblue;}
+.contenedor2{
+    display: flex;
+    flex-direction: row;}
+.derecha{
+    align-self: flex-end;
+}
+.crecer{ 
+    flex-grow: 1;
+}
+.contenedordatos{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.contenedordatos li{
+    width: 30%;
+}
+
+.contenedordatos li{
+    font-size: medium;
+}
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;}
+.derecha1{
+    align-self: flex-end;
+}
+.crecer1{ 
+    flex-grow: 1;}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
